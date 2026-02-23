@@ -47,14 +47,14 @@ A systematic, long-only multi-factor strategy for Japanese equities, built from 
 ### Factor Model
 The composite score combines three factor categories using sector-neutral Z-scores, calculated within 33 TSE sector peer groups to avoid cross-sector bias:
 
-- **Valuation** — Forward P/E, P/B, PEG
-- **Profitability** — ROE, Operating Cash Flow Margin, Cash Conversion
-- **Momentum** — 3M, 6M, 9M, 12M price performance (inverted — contrarian tilt)
+- **Valuation** — Forward earnings and book value metrics
+- **Profitability** — Return and cash flow quality measures
+- **Momentum** — Multi-horizon price performance (contrarian tilt)
 
 A fourth category, **Growth**, was systematically tested but excluded from the composite after validation showed inconsistent predictive power. It is retained as a reference indicator.
 
 ### Portfolio Construction
-- Concentrated portfolio (~15 stocks) selected from the highest-scoring quintile
+- Concentrated portfolio selected from the highest-scoring quintile
 - Sector-neutral scoring prevents sector concentration
 - Drawdown control via price-based losscut with permanent blacklist
 
