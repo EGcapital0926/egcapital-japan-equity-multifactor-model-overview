@@ -2,11 +2,11 @@
 
 A systematic, long-only multi-factor strategy for Japanese equities, built from the ground up: data pipeline, factor research, backtesting engine, portfolio construction, and a live monitoring dashboard.
 
-**Live trading since 2026. All results below are out-of-sample validated.**
+**Live since 2026. Backtested 2017–2026 on point-in-time data.**
 
 ---
 
-## Performance (2017-04 ~ 2026-02, ~8.8 years)
+## Backtest Performance (2017-04 ~ 2026-02, ~8.8 years)
 
 | Metric | Strategy | TOPIX |
 |---|---|---|
